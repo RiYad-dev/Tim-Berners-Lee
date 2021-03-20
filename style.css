@@ -1,0 +1,78 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+#welcome{
+    background-color: aqua;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+    background: linear-gradient(#fcc060 0%, #cc810a 100%);
+    border-radius: 15px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.8;
+    display: table;
+    width: 100%;
+    height: 70%;
+    z-index: 9;
+}
+.profile{
+    border-radius: 50%;
+    height: 300px;
+    width: 250px;
+}
+.parallex-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+#info{
+    padding: 475px;
+    align-items: baseline;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.menu{
+    list-style: none;
+    font-family: monospace;
+    position: sticky;
+    cursor: pointer;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    padding-left: 1000px;
+}
+.links{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: monospace;
+    float: left;
+    color: black;
+}
+.links:hover{
+    background-color: turquoise;
+}
+.article:hover{
+    color: aqua;
+}
+a{
+    text-decoration: none;
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+#work{
+    padding-bottom: 200px;
+}
